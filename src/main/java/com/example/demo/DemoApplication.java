@@ -3,6 +3,8 @@ package com.example.demo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import java.util.Date;
+
 @SpringBootApplication
 public class DemoApplication {
 
@@ -10,6 +12,7 @@ public class DemoApplication {
 		System.out.println("Start Application");
         System.out.println("Comment");
         System.out.println("Secound comment");
+        System.out.println(new Date());
         SpringApplication.run(DemoApplication.class, args);
 	}
 
